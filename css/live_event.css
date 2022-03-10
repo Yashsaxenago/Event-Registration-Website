@@ -1,0 +1,75 @@
+.card {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    min-height: 400px;
+    height: 50%;
+  }
+  
+  
+  .card-img-wrapper img {
+    transition: 1.5s ease;
+  }
+  .card:hover .card-img-wrapper img {
+    transform: scale(1.15);
+  }
+  .card-body .card-title {
+    margin-bottom: calc(50% + 30px);
+    transition: 1.5s ease;
+  }
+  .card:hover .card-body .card-title {
+    margin-bottom: .75rem;
+  }
+  
+  .card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background-color: #fff;
+    transition: 1.5s ease;
+  }
+  
+  .card:hover .card-body {
+    height: 60%;
+  }
+  .card:hover .card-content {
+    bottom: 0;
+  }
+  
+  
+  
+  .card:hover{
+     transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  }
+  .slide{
+  
+  
+  padding-left: 0%;
+  padding-right: 0%;
+  page-break-inside: auto;
+  
+  }
+  .paid{
+    text-align: right;
+    margin-top: 20px;
+    color: red;
+  }
+  .paid1{
+    text-align: right;
+    margin-top: 20px;
+    color: green;
+  }
+  
+  
+  *:after,
+  *:before{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      user-select: none;
+      cursor: default;
+  }
+  
