@@ -30,3 +30,12 @@
   .registerbtn:hover {  
     opacity: 1;  
   }  
+
+  #choose{
+    width: 100%;
+height: 40px;
+  }
+  #dob{
+    width: 100%;
+    height: 40px;
+  }

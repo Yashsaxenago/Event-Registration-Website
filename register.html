@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    
+
     <title>Register</title>
 
 
@@ -70,64 +70,70 @@
 
     <div class="container mt-5">
 
-        <form>  
-            <div class="container">  
-            <center>  <h1> Event Registeration Form</h1> </center>  
-            <hr>  <br>
-            <h4><b><label> Firstname : </label> </b>  </h4>
-          <input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
-           
-         <h4><b> <label> Lastname : </label>    </b></h4>
-          <input type="text" name="lastname" placeholder="Lastname" size="15"required />  
-          
-         <h4><b> <label for="email"><b>Email : </b></label>  </b></h4>
-          <input type="text" placeholder="Enter Email" name="email" required> 
+        <form>
+            <div class="container">
+                <center>
+                    <h1> Event Registeration Form</h1>
+                </center>
+                <hr> <br>
+                <h4><b><label> Firstname : </label> </b> </h4>
+                <input type="text" name="firstname" placeholder="Firstname" size="15" required />
 
-         <h4><b> <label>    Phone No. :  </label>  </b></h4>
-        
-              
-            <input type="text" name="phone" placeholder="Phone No." size="10/"required>   
+                <h4><b> <label> Lastname : </label> </b></h4>
+                <input type="text" name="lastname" placeholder="Lastname" size="15" required />
 
-            <div>  
-                <h4><b> <label for="email"><b>Date Of Birth : </b></label>  </b></h4>
-          <input type="date" placeholder="Date Of Birth" name="email" required> 
-               <h4><b> <label>   <br>
+                <h4><b> <label for="email"><b>Email : </b></label> </b></h4>
+                <input type="text" placeholder="Enter Email" name="email" required>
 
-                Current Address :  
-                <textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
-                </textarea>  
-                 
-             Gender :  
-                </label></b></h4>
-              <b> <input type="radio" value="Male" name="gender" checked > Male   </b>
-              <b> <input type="radio" value="Female" name="gender"> Female   </b>
-              <b>  <input type="radio" value="Other" name="gender"> Other  </b>
-                  
-                </div>  <br>
-                <h4><b><label> Organization Name: </label> </b>  </h4>
-                <input type="text" name="firstname" placeholder= "Organization Name" size="15" required />  
+                <h4><b> <label> Phone No. : </label> </b></h4>
 
-          <div>  
-         <h4><b> <label>   
-          Organization Type :
-          </label>   </b></h4>
-            
-          <select>  
-          <option value="Course">College</option>  
-          <option value="BCA">University</option>  
-          <option value="BBA">Owned</option>  
-          </select>  
-          </div>  <br>
-         
-         
-            
-           <h4>  <label for="psw"><b>Password :</b></label>  </h4>
-              <input type="password" placeholder="Enter Password" name="psw" required>  
-            
-          <h4>    <label for="psw-repeat"><b>Re-type Password :</b></label>  </h4>
-              <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
-              <button type="submit" class="registerbtn">Register</button>   
-          </form>  
+
+                <input type="text" name="phone" placeholder="Phone No." size="10/" required>
+
+                <div>
+                    <h4><b> <label for="email"><b>Date Of Birth : </b></label> </b></h4>
+                    <input type="date" id="dob" placeholder="Date Of Birth" name="email" required />
+                </div> <br>
+<div>
+                <h4><b> <label>
+
+                            Current Address :</label></b></h4>
+                            <textarea cols="80" rows="5" placeholder="Current Address" value="address" required>
+                </textarea> 
+
+            </div>
+            <div><h4><b> <label>
+                            Gender :
+                        </label></b></h4>
+                <b> <input type="radio" value="Male" name="gender" checked> Male </b>
+                <b> <input type="radio" value="Female" name="gender"> Female </b>
+                <b> <input type="radio" value="Other" name="gender"> Other </b>
+
+            </div> <br>
+            <h4><b><label> Organization Name: </label> </b> </h4>
+            <input type="text" name="firstname" placeholder="Organization Name" size="15" required />
+
+            <div>
+                <h4><b> <label>
+                            Organization Type :
+                        </label> </b></h4>
+
+                <select id="choose">
+                    <option value="Course">College</option>
+                    <option value="BCA">University</option>
+                    <option value="BBA">Owned</option>
+                </select>
+            </div> <br>
+
+
+
+            <h4> <label for="psw"><b>Password :</b></label> </h4>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <h4> <label for="psw-repeat"><b>Re-type Password :</b></label> </h4>
+            <input type="password" placeholder="Retype Password" name="psw-repeat" required>
+            <button type="submit" class="registerbtn">Register</button>
+        </form>
 
 
 
@@ -147,7 +153,7 @@
 
         <footer class="py-3 my-4">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="Nav.html" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
                 <li class="nav-item"><a href="event.html" class="nav-link px-2 text-muted">Event</a></li>
                 <li class="nav-item"><a href="register.html" class="nav-link px-2 text-muted">Register</a></li>
                 <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact-Us</a></li>
